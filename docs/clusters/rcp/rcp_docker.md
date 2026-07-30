@@ -33,7 +33,7 @@ This folder contains a `template.sh` file which contains all the available funct
 
 EPFL has a registry of docker images which works in a similar way to the Docker hub. This registry is used to store docker images and is only accessible through the EPFL network (you may use the [EPFL VPN](https://www.epfl.ch/campus/services/ressources-informatiques/network-services-reseau/acces-intranet-a-distance/clients-vpn-disponibles/)).
 
-Connect to [registry.rcp.epfl.ch](https://registry.rcp.epfl.ch) with the VPN, with your GASPAR username and password. To push new docker images, you need to create a project, by clicking on "New project". 
+Connect to [registry.rcp.epfl.ch](https://registry.rcp.epfl.ch) with the VPN, with your GASPAR username and password. To push new docker images, you need to create a project, by clicking on "New project". Ensure that the project is set as **public**.
 
 __IMPORTANT__: Beware that you will have to change the link of the docker images in the scripts according to the actual path of your project (mainly replacing multimeditron/basic by the right path).
 
