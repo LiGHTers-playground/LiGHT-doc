@@ -123,7 +123,7 @@ To build the generic docker image run the following command:
 
 Useful commands:
 
-`docker ps`: To list all the docker images on your machine. Search for the one that you just built, it should have the name that you set up in `IMAGE_NAME`. So if we are using multimeditron, it will be tagged as `multimeditron/basic:amd64-cuda-root-latest` and `multimeditron/basic:amd64-cuda-root-<some git commit hash>`
+`docker images`: To list all the docker images on your machine. Search for the one that you just built, it should have the name that you set up in `IMAGE_NAME`. So if we are using multimeditron, it will be tagged as `multimeditron/basic:amd64-cuda-root-latest` and `multimeditron/basic:amd64-cuda-root-<some git commit hash>`
 
 `docker run --rm -it --entrypoint bash multimeditron/basic:amd64-cuda-root-latest`: To bash into your new docker image and test if you have everything installed correctly.
 
