@@ -69,8 +69,9 @@ git clone https://github.com/some/private_repo.git
 ```
 If you were able to clone the repo, then your setup is correct.
 
+> **_IMPORTANT:_** From now on, you should never be using SSH for accessing RCP. This works only for basic operations with files, but this is not meant for computations. The rest of your work for the semester has to be done with _runai jobs_, as explained below.
 
-### Remote VSCode configuration
+### (Optional) Remote VSCode configuration
 
 We will store the configurations related to VSCode in a folder in the scratch volume so that we don't have to download them every time we start a new container.
 ```bash
