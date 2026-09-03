@@ -7,9 +7,9 @@ Please ask [Peter](mailto:peter.ahumuza@epfl.ch) to add you to the corresponding
 ## 2. Setting-up credentials
 
 This part makes sure that you have access to [GitHub](https://github.com), [wandb](https://wandb.ai/) and [huggingface](https://huggingface.co/) from the cluster. If it's not already done, create an account on those platforms!
-To setup the credentials, we must access the scratch in `haas001.rcp.epfl.ch` using ssh. Note that you can also replace the `$GASPAR` by your EPFL mail address. The password is your GASPAR credentials:
+To setup the credentials, we must access the scratch in `jumphost.rcp.epfl.ch` using ssh. Note that you can also replace the `$GASPAR` by your EPFL mail address. The password is your GASPAR credentials:
 ```bash
-ssh $GASPAR@haas001.rcp.epfl.ch
+ssh $GASPAR@jumphost.rcp.epfl.ch
 ```
 
 **For this part, every command will be done from the ssh terminal**
