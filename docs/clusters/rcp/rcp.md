@@ -151,7 +151,7 @@ runai submit \
   --pvc light-scratch:/lightscratch \
   --large-shm \
   -e NAS_HOME=/lightscratch/users/$GASPAR \
-  -e HF_API_KEY_FILE_AT=/lightscratch/users/$GASPAR/keys/hf_key.txt \
+  -e HF_TOKEN_PATH=/lightscratch/users/$GASPAR/keys/hf_key.txt \
   -e WANDB_API_KEY_FILE_AT=/lightscratch/users/$GASPAR/keys/wandb_key.txt \
   -e GITCONFIG_AT=/lightscratch/users/$GASPAR/.gitconfig \
   -e GIT_CREDENTIALS_AT=/lightscratch/users/$GASPAR/.git-credentials \
