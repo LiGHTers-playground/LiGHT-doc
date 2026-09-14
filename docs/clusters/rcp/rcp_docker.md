@@ -64,6 +64,7 @@ GRPID=984
 GRP=users
 # PASSWD is not secret,
 # it is only there to avoid running password-less sudo commands accidentally.
+# put whatever
 PASSWD=john
 # LAB_NAME will be the first component in the image path.
 # It must be lowercase.
@@ -132,7 +133,7 @@ Useful commands:
 Find your user id:
 
 ```sh
-ssh $GASPAR@haas001.rcp.epfl.ch
+ssh $GASPAR@jumphost.rcp.epfl.ch
 ```
 
 Then use your EPFL password to log in, then find your UID by checking at the beginning of the output of this command:
